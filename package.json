@@ -1,7 +1,7 @@
 {
-  "name": "react-project",
-  "version": "1.0.0",
-  "description": "",
+  "name": "react-practice",
+  "version": "0.5.0",
+  "description": "1. Run `npm i` 2. Run `npm run dev` to start development mode. Project will be available at `localhost:3000` 3. Run `npm run prod` to start production mode 4. Run `npm run lint` to start eslint",
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --progress --inline --hot",
@@ -10,7 +10,7 @@
     "lint": "eslint ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Vladilen Minin",
+  "author": "Bad4iz",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.13.2",
@@ -38,5 +38,16 @@
     "react-router": "^4.1.1",
     "react-router-redux": "^4.0.8",
     "redux": "^3.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bad4iz/react-practice.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/bad4iz/react-practice/issues"
+  },
+  "homepage": "https://github.com/bad4iz/react-practice#readme"
 }
